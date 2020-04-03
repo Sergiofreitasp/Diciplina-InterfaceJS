@@ -46,6 +46,9 @@
 		  
 		  <a href="${pageContext.request.contextPath}/" onclick="valida()"  class="btn btn-lg btn-primary btn-block" type="submit">Logar</a>
 		  <!--  -->
+		  <div>
+             <a onclick="mudar()"  class="btn btn-lg btn-primary btn-block" type="submit">Cadastro</a>
+          </div>
 		  <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
 	</form>
 	
@@ -71,6 +74,9 @@
 			    //window.history.back('http://localhost:8080/agenda-acme/login.jsp');
 		    }
 		  }
+		const mudar = () => {
+		    window.location.href ='http://localhost:8080/agenda-acme/Crud.jsp';
+		}
   
 	</script>
 	
